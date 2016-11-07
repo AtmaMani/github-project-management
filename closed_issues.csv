@@ -1,0 +1,195 @@
+Issue_number,Title,Closed_at,User
+227,Initial check in for unit tests,2016_11_7,AtmaMani
+223,FeatureSet from json and dict is broken,2016_11_4,rohitgeo
+215,Todo list for v0.3 Pre-release cut,2016_11_1,AtmaMani
+224,Refactorings to make a more Pythonic GIS API,2016_10_27,rohitgeo
+37,Consider automatically converting portal date/time to Python object,2016_10_27,wmathot
+54,Wishlist,2016_10_27,achapkowski
+195,Improper variable reference,2016_10_27,MikeMillerGIS
+15,Create Conda package,2016_10_26,rohitgeo
+219,fix for #218 - accessing Feature as a dictionary when querying for values,2016_10_26,AtmaMani
+220,Getting excepting when attempting to get data from an item that is not shared on a portal using Kerberos authentication,2016_10_26,chris-fox
+222,Extract data tools gives RuntimeError,2016_10_25,rohitgeo
+169,Overall doc updates,2016_10_25,AtmaMani
+164,Issues with CA fires sample notebook,2016_10_25,AtmaMani
+165,Issues for Using Geometry Service sample,2016_10_25,AtmaMani
+161,Documentation for UserManager class is not complete.,2016_10_25,EvaMui
+163,"Improve the documentation for gis.group,get_thumbnail() for consistency.",2016_10_25,EvaMui
+166,Issues for Smart Mapping sample,2016_10_25,AtmaMani
+221,enhancement to item publishing for csv,2016_10_25,MikeMillerGIS
+134,"Clone Portal Users, Groups and Content.ipynb needs to be updated",2016_10_25,rwmajor2
+162, The gis.GroupManager doc should say get(groupID) instead of get(username),2016_10_24,EvaMui
+216,Getting internal server error when trying to get a feature service from an item using IWA authentication in Pro,2016_10_24,chris-fox
+217,gis.user.me returns None when gis is initialized within pro for the active portal,2016_10_24,chris-fox
+173,Issues for Using the GIS sample,2016_10_23,AtmaMani
+209,Accessing gis.toots.rasteranalysis does not return None on a portal not enabled for raster analysis,2016_10_21,AtmaMani
+191,Change the style or theme of API ref,2016_10_21,AtmaMani
+172,Suggested changes for Install and Setup page,2016_10_19,AtmaMani
+211,Using 'name' property on item isn't good enough for finding file based items dynamically,2016_10_18,rwmajor2
+149,Updates for v0.2 Beta release,2016_10_17,AtmaMani
+179,Cannot connect to portal secured by IWA if anonymous access is disabled at IIS,2016_10_16,AtmaMani
+212,Add a sample to demonstrate how to clone file based item Hosted Feature Services between Portal,2016_10_17,rwmajor2
+213,Added sample that copies file based HFS between Portals,2016_10_17,rwmajor2
+210,fix for #209,2016_10_16,AtmaMani
+203,token and pop up issues,2016_10_13,MikeMillerGIS
+141,Cannot access `datastore` property when connected to GIS using publisher privilege,2016_10_14,AtmaMani
+177,"Change gis.datastore to return DatastoreManager from all federated servers, not just hosting server",2016_10_14,AtmaMani
+159,Error returned when initialize a map widget.,2016_10_14,EvaMui
+204,Regression in map widget,2016_10_14,AtmaMani
+207,Unreachable code,2016_10_14,MikeMillerGIS
+208,exposed method on item to protect/unprotect,2016_10_14,MikeMillerGIS
+205,fix for #204,2016_10_14,pLeBlanc93
+151,Add IWA/NTLM+Kerberos authentication support ,2016_10_14,rohitgeo
+197,invalid token on geometry.tools,2016_10_13,pLeBlanc93
+200,map.add_Layer() - new layer does not have pop ups,2016_10_13,MikeMillerGIS
+198,gis.map(item) not passing token,2016_10_13,MikeMillerGIS
+199,remove import if item from own class,2016_10_13,MikeMillerGIS
+192,"Should gis.map() accept a webmap, and not just a location?",2016_10_12,MikeMillerGIS
+194,Map item for gis map,2016_10_12,MikeMillerGIS
+196,Resolved lint issues and support for webmap item in MapView(),2016_10_12,MikeMillerGIS
+186,Added missing import of OS and reference issue,2016_10_11,MikeMillerGIS
+183,tools.feature.fc_to_features,2016_10_6,MikeMillerGIS
+185,Updates to FeatureSet and Feature and edit_feature,2016_10_6,MikeMillerGIS
+184,Two new examples if you are looking for contributions,2016_10_6,MikeMillerGIS
+181,Error in tools.py in fc_to_features(dataset),2016_10_6,MikeMillerGIS
+182,resolved https://github.com/ArcGIS/geosaurus/issues/181,2016_10_6,MikeMillerGIS
+180,Update _spatial.py,2016_10_5,knu2xs
+147,Is there a way to determine if item has metadata?,2016_10_3,rwmajor2
+129,Unable to overwrite Hosted Feature Service from updated SD item,2016_10_1,rwmajor2
+175,Need a way to get Groups that a user owns or belongs to.,2016_10_1,rwmajor2
+170,Map Widget does not show up if GIS connection uses non SSL url,2016_9_27,AtmaMani
+96,Developers' site updates for samples,2016_9_23,AtmaMani
+153,"Cannot run the Clone Portal users, groups and content sample",2016_9_21,EvaMui
+157,Minimal update to the Clone sample notebook for Beta2,2016_9_21,rwmajor2
+152,Update context parameter of methods in BigDataTools to match latest REST API,2016_9_20,AtmaMani
+154,fixes for #152,2016_9_20,AtmaMani
+122,Notebook does not draw private webmap items,2016_9_19,AtmaMani
+40,Tokens being passed to non-federated servers,2016_9_19,wmathot
+118,Method to test if a Portal supports calling create_service,2016_9_19,chris-fox
+139,Random token error when trying to reassign items to different user,2016_9_19,rwmajor2
+133,Unable to copy items between Portals,2016_9_19,rwmajor2
+146,Let setuptools dynamically find packages.,2016_9_16,scw
+145,Fixes for tools.bigdata.aggregate_points() tool,2016_9_15,AtmaMani
+144,Update tools.bigdata.aggregate_points() tool following REST API update,2016_9_15,AtmaMani
+142,Unable to query tools.bigdata,2016_9_15,AtmaMani
+143,correcting a possible typo in constructor of class BigDataTools,2016_9_15,AtmaMani
+135,Unable to copy SD files between Portals,2016_9_14,rwmajor2
+138,Regression in add_layer() of MapView,2016_9_13,AtmaMani
+137,"When copying content between Portals, tags end up with brackets around them",2016_9_13,rwmajor2
+136,Unable to access FeatureAnalysisTools when GIS connection is ArcGIS Online. Works for 10.5 portals.,2016_9_12,AtmaMani
+18,add sample showing creation of web layer with results of analysis,2016_9_12,rohitgeo
+132,Unable to Copy Group Icons between Portals,2016_9_12,rwmajor2
+131,Error using MessageInABottle GP service via tools module,2016_9_7,AtmaMani
+130,FeatureServiceAdmin.AddToDefinition fails with 400 Error when feature service has a space in the name,2016_9_2,chris-fox
+127,update() method on WebScene class erases data during the update process.,2016_9_2,AtmaMani
+128,fix for #127,2016_8_26,AtmaMani
+124,FeatureService._populate_layers returns incomplete set of json depending on build of ArcGIS Server,2016_8_25,elinz
+123,Attempting to get the datastore from a portal fails if the portal was initialized within Pro,2016_8_25,chris-fox
+126,Cannot search and find web apps,2016_8_25,rwmajor2
+125,fix for #124,2016_8_25,AtmaMani
+114,Throw a simpler error message when portal url is wrong or inaccessible,2016_8_19,AtmaMani
+120,Not getting expected results with None keyword when updating items,2016_8_16,chris-fox
+119,Exception raised initializing FeatureLayer ,2016_8_15,chris-fox
+16,analytics tools naming,2016_8_15,rohitgeo
+115,item.publish() does not carry through Tags from SD file,2016_8_15,rwmajor2
+117,ContentManager.create_service folder parameter requires the id of the folder rather than the name,2016_8_12,chris-fox
+112,Need method to check ArcGIS Server site to determine if service name is valid for publication,2016_8_11,rwmajor2
+113,Unable to reassign HFS Item to another user,2016_8_11,rwmajor2
+100,Hydrate the item object returned by the item.publish() method,2016_8_5,AtmaMani
+110,"Publishing HFS fails ""hard"" if an existing AGS Service name already exists",2016_8_10,rwmajor2
+109,Publishing Hosted Feature Service fails while it is in partial publishing mode,2016_8_10,rwmajor2
+111,Correctly checking the failed status messages #105,2016_8_9,AtmaMani
+108,Added another failed status messages when publishing to 10.5 portals,2016_8_9,AtmaMani
+105,Publishing a hosted tile service from a service definition item errors out with `KeyError: jobId`,2016_8_9,AtmaMani
+102,Publishing csv files always creates service with name 'data'. Because of this multiple csv files cannot be published.,2016_8_9,AtmaMani
+107,fix regression reported in #102,2016_8_9,rohitgeo
+97,group.thumbnail returns None even though it has a thumbnail,2016_8_9,chris-fox
+5,Discuss: Location of helpers,2016_8_7,ajturner
+104,Corrected gitignore - removed personal comments,2016_8_7,AtmaMani
+65,Support for disconnected sync workflow?,2016_8_5,elinz
+101,Add a 'move' method to Item class to move items into and out of folders,2016_8_5,AtmaMani
+103,#102 Service name from csv,2016_8_6,AtmaMani
+89,Modify the definition of hosted feature services and their layers and tables,2016_8_5,chris-fox
+87,"Get the definition of a FeatureService, i.e. a request to the feature service url",2016_8_5,chris-fox
+88,Get the tables from a FeatureService,2016_8_5,chris-fox
+41,Revisit use of logging,2016_8_5,wmathot
+93,Item constructor requires the internal portal object,2016_8_5,rohitgeo
+92,Provide a higher level data publishing and updating interface,2016_7_29,ajturner
+99,Calling FeatureLayer.edit_features and passing in adds throws an exception,2016_8_4,chris-fox
+98,typo returning wrong url for tables in feature service item,2016_8_4,chris-fox
+94,Updating a feature service item that is not shared with everyone raises exception,2016_8_3,chris-fox
+95,Consider adding ipywidgets to requirements list,2016_8_3,AtmaMani
+91,Added implementation for services and Layer factory,2016_8_3,achapkowski
+85,Add the ability to get the folders for a user,2016_7_22,chris-fox
+86,added list_folders in gis.py,2016_7_19,mjoseph27
+4,Instead of Inheriting from Dictionary,2016_6_28,achapkowski
+90,Added Envelope Geometry Type and Fully Implemented the Geometry Service,2016_7_20,achapkowski
+83,Attempting to get webmap json fails with exception testing if response data is a file path,2016_7_18,chris-fox
+84,added dictionary like geometry objects,2016_7_18,achapkowski
+82,Exception when attempting to download thumbnail for an item,2016_7_18,chris-fox
+78,"Should owner be optional param in create_folder(owner, folder)?",2016_7_16,mjoseph27
+81,folder management for issue #78,2016_7_16,rohitgeo
+79,ContentManager.search seems to make unnecessary REST calls when returning the items,2016_7_16,chris-fox
+80,update super dict on initialization for #79,2016_7_16,rohitgeo
+77,UserManager object no longer has list method,2016_7_15,elinz
+76,Consolidated function in connection class,2016_7_14,achapkowski
+66,Attempting to get data from an item that has no data throws an unexpected exception,2016_7_14,chris-fox
+34,Creating layers with empty dictdata raises KeyError,2016_7_14,mjoseph27
+74,_ArcGISConnection Improvement,2016_7_13,achapkowski
+72,added function to work with SSL Certificates on Server,2016_7_13,achapkowski
+38,create_service fails with invalid JSON primitive error,2016_7_13,chris-fox
+71,fix issue #38 for publishing items and creating services,2016_7_13,rohitgeo
+27,Bug - 2 return statments in publish function,2016_7_13,achapkowski
+70,remove second return for issue #27,2016_7_13,rohitgeo
+35,Searching should default to add_org=True,2016_7_12,wmathot
+69,Use outside_org to search outside the org for issue #35,2016_7_12,rohitgeo
+50,Default MapView is zoomed into New Dehli,2016_7_12,wmathot
+68,Fix map center and zoom for issue #50,2016_7_12,rohitgeo
+67,Upgrade JS API to 3.17,2016_7_12,ecaldwell
+56,Use the latest 3.x version of the ArcGIS Javascript API,2016_7_12,ecaldwell
+63,group.get_thumbnail_link() returns incorrect url when using default portal,2016_7_12,chris-fox
+64,Fixed various url validation bugs,2016_7_12,achapkowski
+39,Get an instance of the active portal in ArcGIS Pro,2016_7_12,chris-fox
+60,active_portal = GIS('pro') fails in pro,2016_7_12,chris-fox
+61,utils._to_utf8 fails to find six,2016_7_12,chris-fox
+62,Fixed issue: #61 and #60,2016_7_12,achapkowski
+25,proposed serverpy addition,2016_7_11,achapkowski
+59,ArcGIS Server Support,2016_7_11,achapkowski
+58,Add missing import,2016_7_9,rohitgeo
+57,add arcgis.egg-info to .gitignore,2016_7_9,rohitgeo
+1,Add top-level licensing information to project,2016_3_22,scw
+52,use pro authentication,2016_7_8,achapkowski
+13,Problems with download_thumbnail in groups,2016_7_8,khibma
+46,Support organizations with multiple geocoders,2016_7_8,wmathot
+43,Group search takes a long time to run,2016_7_8,wmathot
+36,Revisit use of '_unicode_to_ascii' function,2016_7_8,wmathot
+51,Added support for multiple geocoders in a GIS/organization,2016_7_7,wmathot
+49,Fixed lazy loading of groups.,2016_7_7,wmathot
+48,"Changed ""add_org"" parameter name and default behavior for content searching",2016_7_7,wmathot
+44,Create a v1.0 milestone,2016_7_7,ecaldwell
+47,Refactor _unicode_to_ascii for issue #36,2016_7_7,rohitgeo
+45,prettied up the developer install instructions,2016_7_7,ecaldwell
+42,moved install steps above building documentation,2016_7_7,rohitgeo
+21,use @property for more idiomatic api,2016_7_3,ghisprince
+33,clicking on map causes error,2016_7_1,mjoseph27
+31,Improved multipart post support for python 2 and python 3,2016_7_1,achapkowski
+32,make all is_* functions in portalpy properties,2016_6_30,achapkowski
+30,removed unneeded header code because it is already in the installed o…,2016_6_28,achapkowski
+29,utf-8 issue fix.,2016_6_28,achapkowski
+28,requested portalpy fixes and removed unneeded imports.,2016_6_28,achapkowski
+10,Using self-signed certs to access Portal,2016_6_28,pLeBlanc93
+8,Make singleline geocode easier to use,2016_6_28,khibma
+7,Geometry Classes and Geometry Service,2016_6_28,achapkowski
+17,Listing users for Portal takes a really long time,2016_6_28,rwmajor2
+19,are we planning on open sourcing this API?,2016_6_28,jgravois
+22,ArcGIS  Connection Class Questions,2016_6_28,achapkowski
+26,added nbextensionPath variable for tmpnb,2016_6_27,mjoseph27
+24,fixed url combining issue,2016_6_27,achapkowski
+23,added 2/3 support.,2016_6_27,achapkowski
+20,KeyError: 'thumbnail' with User._repr_html_() if anonymous,2016_6_27,ghisprince
+3,New AGSConnection File,2016_6_15,achapkowski
+14,Relax thumbnail requirement on create_from_dict,2016_6_1,khibma
+11,initial commit of unittest structure,2016_4_7,khibma
+9,Executing arcgis.install errors with ImportError - no io module exists,2016_3_30,elinz
+6,Cannot have a module called io.py,2016_3_29,achapkowski
+2,created first base of new operations,2016_3_23,achapkowski
