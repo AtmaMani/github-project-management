@@ -2,7 +2,9 @@
 This repo is a set of Python script tools to manage your GitHub repositories
 and projects. Here you will find tools such as one to get the list of all
 issues closed, generate a table and export that into a csv. You can later
-use this to build your 'issues addressed' list to with your projects.
+use this to build your 'issues addressed' list to go with your projects releases.
+
+I will add more scripts over time as the need arises.
 
 ## Dependencies
   - Python 3x
